@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.8
   supabase_flutter: ^2.9.0
   flutter_dotenv: ^5.2.1
-  supabase_auth_ui: ^0.5.5
   http: ^1.4.0
 
 dev_dependencies:
