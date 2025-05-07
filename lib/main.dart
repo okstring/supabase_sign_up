@@ -12,7 +12,7 @@ void main() async {
 
 // 앱 초기화 함수
 Future<void> _initializeApp() async {
-  await dotenv.load(fileName: ".env");
+  await dotenv.load();
 
   final supabaseUrl = dotenv.env['SUPABASE_URL'] ?? '';
   final supabaseAnonKey = dotenv.env['SUPABASE_ANON_KEY'] ?? '';
